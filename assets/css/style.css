@@ -497,6 +497,12 @@ section {
     position: relative;
     overflow: hidden;
     z-index: 1;
+    /*  */
+    padding: 10px;
+    /* background: #fff; */
+    background: #f5f8fd;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 .portfolio .portfolio-wrap::before {
     content: "";
@@ -514,7 +520,49 @@ section {
     opacity: 1;
     left: 0;
     right: 0;
-    /* bottom: -60px; */
+    bottom: -60px;
+    z-index: 3;
+    position: absolute;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    justify-content: center;
+}
+.portfolio .portfolio-wrap .portfolio-links a {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    /* background: rgba(20, 157, 221, 0.75); */
+    /* background: rgba(255, 255, 255, 0.4); */
+    transition: 0.3s;
+    width: 100%;
+    padding: 2.5em;
+    /* margin: 2em; */
+}
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+    /* background: rgba(20, 157, 221, 0.95); */
+}
+.portfolio .portfolio-wrap .portfolio-links a+a {
+    border-left: 1px solid #37b3ed;
+}
+.portfolio .portfolio-wrap:hover::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+}
+.portfolio .portfolio-wrap:hover .portfolio-links {
+    opacity: 1;
+    bottom: 0;
+    background: rgba(20, 157, 221, 0.95);
+}
+.box-shadow-border {}
+
+/* 
+.portfolio .portfolio-wrap .portfolio-links {
+    opacity: 1;
+    left: 0;
+    right: 0;
     z-index: 3;
     position: absolute;
     transition: all ease-in-out 0.3s;
@@ -526,10 +574,10 @@ section {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-    /* background: rgba(20, 157, 221, 0.75); */
     transition: 0.3s;
     width: 100%;
     padding: 9em;
+    min-height: 100%;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
     background: rgba(255, 255, 255, 0.4);
@@ -547,10 +595,12 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
     opacity: 1;
     bottom: 0;
-}
+} 
+
 .portfolio-item {
     border: solid red;
-}
+}*/
+
 
 /*--------------------------------------------------------------
 # Portfolio Details
