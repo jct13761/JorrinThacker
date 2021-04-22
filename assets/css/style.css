@@ -516,6 +516,12 @@ section {
     z-index: 2;
     opacity: 0;
 }
+.portfolio .portfolio-wrap h5 {
+    padding-top: 1em;
+}
+.portfolio .portfolio-wrap p {
+    padding: 0.5em;
+}
 .portfolio .portfolio-wrap .portfolio-links {
     opacity: 1;
     left: 0;
