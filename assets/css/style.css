@@ -1093,10 +1093,6 @@ section {
     margin-right: auto;
     width: 50%;
 }
-.apple iframe {
-    width: 533px;
-    height: 300px;
-}
 .nmi-sub-section {
     padding: 30px;
     margin-top: 5em;
@@ -1105,3 +1101,55 @@ section {
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
+.apple-project-description p {
+    padding: 2em;
+}
+.apple-project-description li {
+    padding: 0.5em;
+}
+.apple iframe {
+    width: 575px;
+    height: 337px;
+}
+.midterm-description {
+    padding: 3em;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Slider
+--------------------------------------------------------------*/
+
+.portfolio-details-nmi {
+    padding-top: 40px;
+}
+.portfolio-details-nmi .portfolio-details-slider-nmi img {
+    width: 100%;
+}
+.portfolio-details-nmi .portfolio-details-slider-nmi .swiper-pagination-nmi {
+    margin-top: 20px;
+    position: relative;
+}
+.portfolio-details-nmi .portfolio-details-slider-nmi .swiper-pagination-nmi .swiper-pagination-bullet-nmi {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #149ddd;
+}
+.portfolio-details-nmi .portfolio-details-slider-nmi .swiper-pagination-nmi .swiper-pagination-bullet-active-nmi {
+    background-color: #149ddd;
+}
+.swiper-slide img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.swiper-slide p {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: #149ddd;
+    font-size: 16pt;
+}
+
+/*--------------------------------------------------------------*/

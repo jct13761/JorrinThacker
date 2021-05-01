@@ -61,6 +61,8 @@
                         <li><a href="#apple" class="nav-link scrollto"><i class="bx bi-phone"></i> <span>NMI 4310</span></a></li>
                         <li><a href="#brownbag" class="nav-link scrollto"><i class="bx bi-bag"></i> <span>NMI 4220</span></a></li>
                         <li><a href="#capstone" class="nav-link scrollto"><i class="bx bi-laptop"></i> <span>NMI 4510</span></a></li>
+                        <li><a href="#capstone" class="nav-link scrollto"><i class="bx bi-terminal"></i> <span>CSCI 1302</span></a></li>
+                        <li><a href="#capstone" class="nav-link scrollto"><i class="bx bi-window-sidebar"></i> <span>CSCI 4300</span></a></li>
 
                     </ul>
                 </nav>
@@ -99,10 +101,10 @@
                     <a href="https://mynmi.net/"><img src="../assets/img/NMI_Logo.jpg" alt="NMI Logo" class=""></a>
                 </div>
             </section>
-            <!-- End About Section -->
+            <!-- End Logo Section -->
 
-            <!-- ======= About Section ======= -->
-            <section id="overview" class="overview">
+            <!-- ======= Overview Section ======= -->
+            <section id="overview" class="overview section-bg">
                 <div class="container">
 
                     <div class="section-title">
@@ -113,74 +115,126 @@
                     </div>
                 </div>
             </section>
-            <!-- End About Section -->
+            <!-- End Overview Section -->
 
-            <!-- ======= About Section ======= -->
-            <section id="apple" class="apple section-bg">
+            <!-- ======= Apple Section ======= -->
+            <section id="apple" class="apple ">
                 <div class="container">
-
                     <div class="section-title">
                         <h2>NMI 4310: Rich Media Production</h2>
                         <p>In my Rich Media Production class, we used SwiftUI in XCode to develop application for iOS products like iPhones and iPads. We had weekly assignments that helped teach and enforce new material and had two major projects throughout
-                            the semester. This class taught basics like text and image creation and ramped up to making integrating maps, making multi-screen interfaces, and using data like JSON files and API’s. </p>
+                            the semester. This class taught basics like text and image creation and ramped up to making integrating maps, making multi-screen interfaces, and using data like JSON files and API’s.
+                        </p>
 
-                        <div class="nmi-sub-section">
-                            <p></p>
-
-                            <div class="col-lg-8">
-                                <div class="portfolio-details-slider swiper-container">
-                                    <div class="swiper-wrapper align-items-center">
-
-                                        <div class="swiper-slide">
-                                            <img src="../assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                        <div class="nmi-sub-section d-flex justify-content-center">
+                            <div class="col-sm-6 apple-project-description">
+                                <p> <b>This slide show demonstrates some of the projects that I made while taking Rich media production. </b></p>
+                                <ol type="1">
+                                    <li>This project made use of a Trivia API and pulled 10 random trivia questions and their respective answers.</li>
+                                    <li>This project showed how to use the SwiftUI Map classes and how to combine multiple views into one.</li>
+                                    <li>This was my midterm project that pulled all the Crayola crayon colors from a JSON file and let the user change the theme to one of the colors. </li>
+                                    <li>This project made use of the iTunes API to get samples of songs and play them when the user clicked on them. It had a funcitioning play/pause button and made use of the SwiftUI's animations.</li>
+                                    <li>This project used SwiftUI's form controlls to take in the user input and display it on a webpage with css matching the user specifications. </li>
+                                </ol>
+                            </div>
+                            <div class="col-sm-6 ">
+                                <div class="portfolio-details-slider swiper-container ">
+                                    <div class="swiper-wrapper my-auto ">
+                                        <div class="swiper-slide ">
+                                            <img src="../assets/img/nmiPortfolio/trivia.png " alt=" ">
+                                            <p class=" text-center"> 1</p>
                                         </div>
-
-                                        <div class="swiper-slide">
-                                            <img src="../assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                                        <div class="swiper-slide ">
+                                            <img src="../assets/img/nmiPortfolio/map.png " alt=" ">
+                                            <p class=" text-center"> 2</p>
                                         </div>
-
-                                        <div class="swiper-slide">
-                                            <img src="../assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                                        <div class="swiper-slide ">
+                                            <img src="../assets/img/nmiPortfolio/crayola.png " alt=" ">
+                                            <p class=" text-center"> 3.1</p>
+                                        </div>
+                                        <div class="swiper-slide ">
+                                            <img src="../assets/img/nmiPortfolio/crayola2.png " alt=" ">
+                                            <p class=" text-center"> 3.2</p>
+                                        </div>
+                                        <div class="swiper-slide ">
+                                            <img src="../assets/img/nmiPortfolio/jukebox.png " alt=" ">
+                                            <p class=" text-center"> 4</p>
+                                        </div>
+                                        <div class="swiper-slide ">
+                                            <img src="../assets/img/nmiPortfolio/selections.png " alt=" ">
+                                            <p class=" text-center"> 5</p>
                                         </div>
 
                                     </div>
-                                    <div class="swiper-pagination"></div>
+                                    <div class="swiper-pagination "></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="nmi-sub-section">
-                            <p></p>
-                            <iframe src="https://www.youtube.com/embed/W0Cpv91QRlc"></iframe>
+
+                        <div class="nmi-sub-section d-flex justify-content-center">
+                            <div class="col-sm-6 ">
+                                <iframe src="https://www.youtube.com/embed/W0Cpv91QRlc "></iframe>
+                            </div>
+                            <div class="col-sm-6 midterm-description ">
+                                <p>For my midterm project, I wanted to use a JSON file and have something that the user could do to influence ethe entire app. What I landed on was making an app that listed all the Crayola colors and let the user choose one
+                                    of the colors to be the theme of the application. I pulled the list of colors from a JSON file I found and displayed this list on a separate view. When the user opened the view, they could see the list and click on
+                                    one to set the theme to that color. When they hit the back button, the theme remained the color of their choice. For the background images, I created the crayons using SwiftUI’s Shapes and Path classes.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- End About Section -->
+            <!-- End Apple Section -->
 
-            <!-- ======= About Section ======= -->
-            <section id="brownbag" class="brownbag">
-                <div class="container">
+            <!-- ======= Brownbag Section ======= -->
+            <section id="brownbag " class="brownbag section-bg">
+                <div class="container ">
 
-                    <div class="section-title">
+                    <div class="section-title ">
                         <h2>NMI 4220: Digital Brown Bag</h2>
                         <p>Under construction</p>
                     </div>
                 </div>
             </section>
-            <!-- End About Section -->
+            <!-- End Brownbag Section -->
 
-            <!-- ======= About Section ======= -->
-            <section id="capstone" class="capstone section-bg">
-                <div class="container">
+            <!-- ======= Capstone Section ======= -->
+            <section id="capstone " class="capstone">
+                <div class="container ">
 
-                    <div class="section-title">
+                    <div class="section-title ">
                         <h2>NMI 4510: Capstone</h2>
-                        <p>In progress.</p>
+                        <p>Under construction</p>
                     </div>
                 </div>
             </section>
-            <!-- End About Section -->
+            <!-- End Capstone Section -->
 
+
+            <!-- ======= 1302 Section ======= -->
+            <section id="1302 " class="1302 section-bg">
+                <div class="container ">
+
+                    <div class="section-title ">
+                        <h2>CSCI 1302: Software Development (Elective)</h2>
+                        <p>Under construction</p>
+                    </div>
+                </div>
+            </section>
+            <!-- End 1302 Section -->
+
+            <!-- ======= WebDev Section ======= -->
+            <section id="webdev " class="webdev">
+                <div class="container ">
+
+                    <div class="section-title ">
+                        <h2>CSCI 4300: Web Development (Elective)</h2>
+                        <p>Under construction</p>
+                    </div>
+                </div>
+            </section>
+            <!-- End WebDev Section -->
 
 
         </main>
@@ -203,21 +257,21 @@
         </footer>
         <!-- End  Footer -->
 
-        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        <a href="# " class="back-to-top d-flex align-items-center justify-content-center "><i class="bi bi-arrow-up-short "></i></a>
 
         <!-- Vendor JS Files -->
-        <script src="../assets/vendor/aos/aos.js"></script>
-        <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="../assets/vendor/php-email-form/validate.js"></script>
-        <script src="../assets/vendor/purecounter/purecounter.js"></script>
-        <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-        <script src="../assets/vendor/typed.js/typed.min.js"></script>
-        <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+        <script src="../assets/vendor/aos/aos.js "></script>
+        <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+        <script src="../assets/vendor/glightbox/js/glightbox.min.js "></script>
+        <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
+        <script src="../assets/vendor/php-email-form/validate.js "></script>
+        <script src="../assets/vendor/purecounter/purecounter.js "></script>
+        <script src="../assets/vendor/swiper/swiper-bundle.min.js "></script>
+        <script src="../assets/vendor/typed.js/typed.min.js "></script>
+        <script src="../assets/vendor/waypoints/noframework.waypoints.js "></script>
 
         <!-- Template Main JS File -->
-        <script src="../assets/js/main.js"></script>
+        <script src="../assets/js/main.js "></script>
 
     </body>
 
