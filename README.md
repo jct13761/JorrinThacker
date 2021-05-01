@@ -1,10 +1,9 @@
 # JorrinThacker
 My Personal Website
 
-### Link
-https://jct13761.github.io/JorrinThacker/
-http://jorrinthacker.website/
-http://jorrinthacker.website/nmc
+### Links 
+* http://jorrinthacker.website/
+* http://jorrinthacker.website/nmc
 
 
 
