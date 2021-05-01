@@ -1084,3 +1084,12 @@ section {
 .skill p {
     padding-top: 1em;
 }
+
+/* NMI Portfolio */
+
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
