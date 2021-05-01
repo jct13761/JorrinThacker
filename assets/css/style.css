@@ -1093,3 +1093,15 @@ section {
     margin-right: auto;
     width: 50%;
 }
+.apple iframe {
+    width: 533px;
+    height: 300px;
+}
+.nmi-sub-section {
+    padding: 30px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
