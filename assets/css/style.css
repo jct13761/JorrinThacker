@@ -1108,8 +1108,9 @@ section {
     padding: 0.5em;
 }
 .apple iframe {
-    width: 575px;
-    height: 337px;
+    width: 100%;
+    height: 100%;
+    /* height: 337px; */
 }
 .midterm-description {
     padding: 3em;

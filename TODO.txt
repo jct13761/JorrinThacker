@@ -1,0 +1,3 @@
+Make and link github repos
+Make detail pages for projects
+add most recent projects (Apple, VR, Personal)
