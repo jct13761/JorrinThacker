@@ -521,6 +521,7 @@ section {
 }
 .portfolio .portfolio-wrap p {
     padding: 0.5em;
+    padding-bottom: 1.5em;
 }
 .portfolio .portfolio-wrap .portfolio-links {
     opacity: 1;
@@ -541,7 +542,7 @@ section {
     /* background: rgba(255, 255, 255, 0.4); */
     transition: 0.3s;
     width: 100%;
-    padding: 2.5em;
+    padding: 0.5em;
     /* margin: 2em; */
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -560,7 +561,9 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-links {
     opacity: 1;
     bottom: 0;
-    background: rgba(20, 157, 221, 0.95);
+    /* background: rgba(20, 157, 221, 0.95); */
+    /* background: #173b6c; */
+    background: #040b14;
 }
 .box-shadow-border {}
 
