@@ -1076,10 +1076,13 @@ section {
     padding: 1em;
 }
 .skill img {
+    margin: 0 auto;
+    height: 35%;
     max-height: 100px;
-    /* text-align: center;
-    vertical-align: middle; */
-    padding-bottom: 0em;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
 }
 .skill p {
     padding-top: 1em;
