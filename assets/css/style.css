@@ -1122,7 +1122,7 @@ section {
     padding: 3em;
 }
 .swiper-slide .swiper-slide-image {
-    border: 2pt solid red;
+    /* border: 2pt solid red; */
     display: block;
     margin-left: auto;
     margin-right: auto;
