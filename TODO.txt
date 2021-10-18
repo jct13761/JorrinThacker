@@ -1,1 +1,3 @@
 Make Details of all classes taken
+
+Make "Developer Tools and Software" into 2 sections (Applications and API/Framworks)
