@@ -2,6 +2,11 @@ Make Details of all classes taken
 
 Make "Developer Tools and Software" into 2 sections (Applications and API/Framworks)
 
+Update Resume
+	- Fix University
+	- Update Projects
+	- Add project Descriptions
+
 Update Skills
 
 Update Portfolio (HCI, Graphics, OS) 
