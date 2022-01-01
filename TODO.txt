@@ -4,7 +4,6 @@ Make "Developer Tools and Software" into 2 sections (Applications and API/Framwo
 
 Update Resume
 	- Fix University
-	- Update Projects
 	- Add project Descriptions
 
 Update Skills
