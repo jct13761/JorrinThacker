@@ -1266,6 +1266,19 @@ section {
     padding-top: 1em;
 }
 
+.swiper-slide .swiper-p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #149ddd;
+    font-size: 14pt;
+}
+
+.experience-card .experience-contact {
+    font-size: 10pt;
+    margin-top: -0.5em;
+    margin-bottom: -0em;
+}
+
 
 /* NMI Portfolio */
 
@@ -1309,13 +1322,6 @@ section {
     margin-left: auto;
     margin-right: auto;
     max-width: 80%;
-}
-
-.swiper-slide .swiper-p {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: #149ddd;
-    font-size: 14pt;
 }
 
 

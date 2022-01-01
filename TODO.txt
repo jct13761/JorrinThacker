@@ -2,14 +2,5 @@ Make Details of all classes taken
 
 Make "Developer Tools and Software" into 2 sections (Applications and API/Framworks)
 
-Update Resume
-	- Fix University
-	- Add project Descriptions
-
 Update Skills
 
-Update Portfolio (HCI, Graphics, OS) 
-
-Add contact information for experience
-	* Juni - Nikki Esguerra at Nikki@learnwithjuni.com
-	* TA - Dr. Michael E. Cotterell - mepcott@uga.edu - 812 Boyd Graduate Studies Research Center - Phone Number: (706) 542-4799 - 		https://cs.uga.edu/directory/people/michael-e-cotterell
