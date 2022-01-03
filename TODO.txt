@@ -1,7 +1,3 @@
 Make Details of all classes taken
 
 Add Descriptions for New Projects
-Add videos
-Make Github Repos Public
-Add relevant links to githubs 
-Add Odin Projects to seperate Githubs
